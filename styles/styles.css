@@ -17,7 +17,7 @@ h2,h3,h4,h5,h6,p{
     position: relative;
     align-items: center; 
     z-index: 0;
- 
+    overflow:hidden;
     
 }
 .header__logo{
@@ -34,6 +34,7 @@ h2,h3,h4,h5,h6,p{
     font-weight: bold;
     position: absolute;
     left:64px;
+    z-index: 888;
   
 }
 .header__subtitle{
@@ -44,6 +45,7 @@ h2,h3,h4,h5,h6,p{
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
+    z-index:999;
     
 }
 .header__subtitle__link{
@@ -56,6 +58,7 @@ height: 608px;
 position:absolute;
 bottom: 0px;
 right: 0px;
+z-index: 1;
 }
 .header__square-pic{
     position: absolute;
@@ -216,6 +219,7 @@ right: 0px;
     position: relative;
 }
 .kaufman__section-title_theme_dark{
+    position: relative;
    color: white;
    z-index: 4444;
     
@@ -300,7 +304,7 @@ right: 0px;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 3px;
     text-decoration: none;
     
 }
