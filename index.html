@@ -14,6 +14,7 @@
         <h2 class="header__subtitle"> The most effective, cutting-edge learning techniques that you can apply to your daily life
             <a class="header__subtitle__link"href="#">Learn more →</a>
         </h2>
+        <!--FIXME: Нарушена табулияция-->
         <div class="header__square-pic">
         </div>
         <img class="header__main-illustration" src="images/header-image.png" alt="The main picture of the page should be here.">
@@ -25,7 +26,9 @@
                             The main problem with education
                 </h2>
                     <div class="two-columns__main-text">
-                        <p class="two-columns__paragraph">
+                        <p class="two-columns__paragraph"> 
+                            <!--FIXME: Нарушена табулияция-->
+                            
                             Whether it's at school or university, the one thing no one ever teaches you is how to teach yourself.
                              All you actually do is memorize information in order to regurgitate it when you take the test.
                               You get drilled on how to solve specific exercises so that while you know exactly what you need to do when exam time comes around,
@@ -46,7 +49,9 @@
              </div>
         </section>
                 <section class="digits">
+                    <!--FIXME: Вероятно класс должен называться digits__title-->
                     <h2 class="digits__section-title">Facts and figures</h2>
+                    <!--FIXME: Вероятно класс должен см выше-->
                     <h3 class="digits__section-subtitle">On learning and the brain</h3>
                     <div class="digits__table">
                         <ul class="table__cell">
@@ -90,13 +95,17 @@
                     </div>
                 </section>
                 <section class="feynman">
+                    <!--FIXME: Нарушена табулияция-->
                      <h2 class="feynman__title">The Feynman Technique</h2> 
                     <h3 class="feynman__subtitle">Learn without forgetting.</h3>
                     <a class="feynman__link" href="#">More →</a>
                     <img class="feynman__image" src="images/feynman.png" alt="feynman">
                 </section>
                 <section class="kaufman">
+                    <!--FIXME: Вероятно класс должен digits__title-->
                     <h2 class="digits__section-title  kaufman__section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
+                    <!--FIXME: Вероятно класс должен см выше-->
+                    <!--FIXME: Класс kaufman__section-subtitle_theme_dark используется не только в этом разделе => изменить название-->
                     <h3 class="digits__section-subtitle kaufman__section-subtitle_theme_dark">by Josh Kaufman</h3>
                     <div class="digits__table kaufman__table_theme_dark">
                         <ul class="table__cell table__cell_theme_dark">
@@ -111,6 +120,7 @@
                             <li class="table__heading">3</li>  
                             <li class="table__text">Define your target performance level</li>                                       
                         </ul>
+                        <!--FIXME: table__cell_theme_dark хорошее название для класса которое может быть переспользованно! Используйте тот же подход для темнйо темы kaufman-->
                         <ul class="table__cell table__cell_theme_dark">
                             <li class="table__heading">4</li>   
                             <li class="table__text">Deconstruct the skill into sub-skills</li>                     
@@ -147,13 +157,19 @@
         </main>
 
     <footer class="footer">
+        <!--FIXME: footer__table будет лучше соответстовать -->
         <div class="footer__columns">
+            <!--FIXME: Почему columns ?  имелось ввиду column? -->ы
             <div class="columns__content_copyright">
+                <!--FIXME: Правильнее будет создать класса logo  который будет как в хедере так и в футаре т.к некоторые стили у них пересикаются
+                а logo_place_footer logo_place_header использовать как модификаторы-->
                 <img class="logo_place_footer" src="images/logo_place_footer.png" alt="Practicum">
                 <h3 class="footer__author">© 2021. Nick Vaysov</h3>
             </div>
+            <!--FIXME: Почему каждая колонка имеет различный стиль написания класса??? -->
             <div class="footer__column_content_info">
                 <h2 class="footer__column-heading">About Practicum by Yandex</h2>
+                <!--FIXME: существует тег nav используемы для навигациных блоков-->
                 <div class="footer__column-links">
                     <p><a class="footer__column-links-styles" href="#">Home page</a></p> 
                     <p><a class="footer__column-links-styles" href="#">Concept</a></p>
@@ -161,12 +177,15 @@
                 </div>
             </div>
             <div class="footer__column_content_social">
+                <!--FIXME: нарушена табуляция-->
                 <h2 class="footer__column-heading">Social media</h2>
                     <a class="footer__two-columns" href="https://ru-ru.facebook.com/yandex/" target="_blank">
+                        <!--FIXME: alt атрибут не заполнен-->
                         <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="">
                         <h3 class="footer__column-links-styles">Facebook</h3>
                     </a>
                     <a class="footer__two-columns" href="https://www.instagram.com/yandex/?hl=ru" target="_blank">
+                        <!--FIXME: alt атрибут не заполнен-->
                         <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="">
                         <h3 class="footer__column-links-styles">Instagram</h3>
                     </a>
@@ -175,6 +194,6 @@
     </footer>
     
     
-
+<!--FIXME: нарушена табуляция-->
 </div>
 </body>

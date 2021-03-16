@@ -1,7 +1,9 @@
+/* FIXME: Думаю, эта часть дублирует то, что уже прописано в normolize.css */
 h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
 }
+
 .page{
     min-width: 1100px;
     max-width: 1600px; 
@@ -32,6 +34,7 @@ h2,h3,h4,h5,h6,p{
     font-size: 102px;
     line-height: 96px;
     font-weight: bold;
+    /* FIXME: Элементы с position: absolute; обязаны быть закреплены по вдвум точка */
     position: absolute;
     left:64px;
     z-index: 888;
@@ -52,6 +55,7 @@ h2,h3,h4,h5,h6,p{
     text-decoration: none;
     color: #2f80ed;
 }
+/* FIXME: Табулияция */
 .header__main-illustration{
 width: 765px;
 height: 608px;
@@ -74,6 +78,7 @@ z-index: 1;
   margin-top: 100px;
   
 }
+/* FIXME: Табулияция */
 .description__two-columns{
      width: 80%; 
      
@@ -90,6 +95,7 @@ z-index: 1;
     color: #2f80ed;
 
 }
+/* FIXME: Лишние пробелы */
 .two-columns__main-text{
     
     width: 80%;
@@ -137,9 +143,11 @@ z-index: 1;
      display: flex; 
      justify-content: space-between; 
 }
+/* FIXME: Табуляция */
 .table__cell {
  margin-top: 60px;
  width: 250px;
+ /* FIXME: Дабы код не был громоздким можно прописывать в формате margin: 60px auto 0 0*/
  margin-left: 0;
  padding-left: 0;
  margin-bottom: 0;
